@@ -4,16 +4,9 @@ import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        int sum = 0;
-        while (true) {
-            Scanner scanner = new Scanner(System.in);
-            String input = scanner.nextLine();
-            if (input.isEmpty()) {
-                System.out.println(sum);
-                sum = 0;
-            } else {
-                sum += Integer.parseInt(input);
-            }
-        }
+       int firstNumber= Integer.parseInt(args[0]);
+       int secondNumber= Integer.parseInt(args[1]);
+       int sum=firstNumber+secondNumber;
+        System.out.println(sum);
     }
 }
