@@ -1,5 +1,4 @@
-package com.epam.training.Alibek_Khudoykulov.Java_Maven_Task.src.test.java.com.github.vitalliuss.helloci;
-
+package com.github.vitalliuss.helloci;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -23,19 +22,4 @@ public class AppTest {
 		assertTrue(false);
 	}
 
-	@Ignore("Not implemented yet")
-	@Test
-	public void testShouldBeSKipped() {
-		assertTrue(true);
-	}
-	
-	@Test
-	public void testAnotherMethod() {
-		App.doNothing();
-	}
-	
-	@Test
-	public void testAnotherClass() {
-		EmptyClass.emptyMethod();
-	}
 }
